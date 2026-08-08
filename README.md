@@ -53,7 +53,14 @@ This project shifts the growth strategy from onboarding usability to a **Collabo
 | **Retention Metric** | First-Year Customer Retention | Mitigate current 60% annual churn rate |
 
 ---
-
+## Assembled Onboarding Plan 
+| Stage | User Segment | Message Type | Frequency | Limitations | Prompt Message | Purpose | Message Content |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Business Calibration** | **The Reactive Founder** | In-App Modal | 1 per session | Limited real-time transaction categorization capabilities | **Tailor Your Cash View** | Guide activation | "Welcome to FinWise! Select your business model and primary goal so we can tailor your cash runway cards instantly." |
+| **Bank Data Integration** | **The Reactive Founder** & **Operational Growth Lead** | In-App Slide-over | 1 per session | Third-party bank API sync latencies | **Secure 1-Click Bank Sync** | Guide activation | "Connect your business account via Plaid. While API sync completes, we will automatically organize your last 90 days of cash history." |
+| **Cash Runway Dashboard (Aha)** | **The Reactive Founder** | In-App Insight Banner | 1 per session | Limited real-time transaction categorization capabilities | **Actionable Expense Alert** | Highlight actionable insights | "We flagged $4,200 in recurring subscriptions with low utilization. Click 'Resolve' now to reclaim cash and extend your runway by 2 weeks." |
+| **Cash Runway Dashboard (Aha)** | **The Operational Growth Lead** | Interactive Tooltip | 1 per session | Rigid trial paywall configurations | **Unlock 90-Day Forecast** | Highlight actionable insights | "Your 14-week cash forecast is active. Test custom 'What-If' scenario models right now to plan upcoming Q4 hiring and cash reserves." |
+| **Team Collaboration** | **The Operational Growth Lead** & **External Advisor** | In-App Pop-up | 1 per session | Rigid trial paywall configurations | **Invite Your Advisory Co-Pilot** | Encourage collaborator invites & drive paid conversion | "Bring your accountant or leadership team into FinWise. Invite a collaborator today to lock in this forecast and share live audit-ready reports." |
 ## 🚀 How to Use This Repository
 
 1. **Review the Interactive Worksheet:** Open `FinWise_Hypothesis_Worksheet.md` to see the complete log of initial hunches, data pressure-tests, and formalized experiment parameters.
